@@ -18,15 +18,15 @@ import (
 	"sync"
 	"time"
 
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/mvcc"
 	"github.com/coreos/pkg/capnslog"
 	"github.com/jonboulle/clockwork"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
+	"github.com/thistonyuncle/etcd/mvcc"
 	"golang.org/x/net/context"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "compactor")
+	plog = capnslog.NewPackageLogger("github.com/thistonyuncle/etcd", "compactor")
 )
 
 const (

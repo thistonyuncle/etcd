@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"regexp"
 
-	pb "github.com/coreos/etcd/mvcc/mvccpb"
 	"github.com/spf13/cobra"
+	pb "github.com/thistonyuncle/etcd/mvcc/mvccpb"
 	"golang.org/x/net/context"
 )
 

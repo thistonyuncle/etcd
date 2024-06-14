@@ -129,4 +129,4 @@ $ curl http://127.0.0.1:4001/version
 
 [backup-datastore]: admin_guide.md#backing-up-the-datastore
 [downgrade]: #downgrade
-[v2.1]: https://github.com/coreos/etcd/releases/tag/v2.1.2
+[v2.1]: https://github.com/thistonyuncle/etcd/releases/tag/v2.1.2

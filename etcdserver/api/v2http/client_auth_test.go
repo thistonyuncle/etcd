@@ -30,8 +30,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coreos/etcd/etcdserver/api"
-	"github.com/coreos/etcd/etcdserver/auth"
+	"github.com/thistonyuncle/etcd/etcdserver/api"
+	"github.com/thistonyuncle/etcd/etcdserver/auth"
 )
 
 const goodPassword = "good"

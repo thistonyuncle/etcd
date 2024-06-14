@@ -15,9 +15,9 @@
 package mvcc
 
 import (
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/mvcc/backend"
-	"github.com/coreos/etcd/mvcc/mvccpb"
+	"github.com/thistonyuncle/etcd/lease"
+	"github.com/thistonyuncle/etcd/mvcc/backend"
+	"github.com/thistonyuncle/etcd/mvcc/mvccpb"
 )
 
 type storeTxnRead struct {

@@ -1306,7 +1306,7 @@ backward compatibility for `JSON` format and the format in non-interactive mode.
 
 ### TODO: compatibility with etcd server
 
-[etcd]: https://github.com/coreos/etcd
+[etcd]: https://github.com/thistonyuncle/etcd
 [READMEv2]: READMEv2.md
 [v2key]: ../store/node_extern.go#L28-L37
 [v3key]: ../mvcc/mvccpb/kv.proto#L12-L29

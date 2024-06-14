@@ -20,11 +20,11 @@ import (
 
 	"net/http"
 
-	etcdErr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v2http/httptypes"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
 	"github.com/prometheus/client_golang/prometheus"
+	etcdErr "github.com/thistonyuncle/etcd/error"
+	"github.com/thistonyuncle/etcd/etcdserver"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
 )
 
 var (

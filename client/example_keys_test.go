@@ -19,7 +19,7 @@ import (
 	"log"
 	"sort"
 
-	"github.com/coreos/etcd/client"
+	"github.com/thistonyuncle/etcd/client"
 	"golang.org/x/net/context"
 )
 

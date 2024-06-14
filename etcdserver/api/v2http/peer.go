@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api"
-	"github.com/coreos/etcd/lease/leasehttp"
-	"github.com/coreos/etcd/rafthttp"
+	"github.com/thistonyuncle/etcd/etcdserver"
+	"github.com/thistonyuncle/etcd/etcdserver/api"
+	"github.com/thistonyuncle/etcd/lease/leasehttp"
+	"github.com/thistonyuncle/etcd/rafthttp"
 )
 
 const (

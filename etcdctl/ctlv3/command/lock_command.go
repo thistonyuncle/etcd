@@ -22,9 +22,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/concurrency"
 	"github.com/spf13/cobra"
+	"github.com/thistonyuncle/etcd/clientv3"
+	"github.com/thistonyuncle/etcd/clientv3/concurrency"
 	"golang.org/x/net/context"
 )
 

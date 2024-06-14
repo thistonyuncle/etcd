@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
+	"github.com/thistonyuncle/etcd/raft/raftpb"
 	"golang.org/x/net/context"
 )
 

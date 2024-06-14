@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/etcdserver/stats"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/thistonyuncle/etcd/etcdserver/stats"
+	"github.com/thistonyuncle/etcd/pkg/types"
+	"github.com/thistonyuncle/etcd/raft/raftpb"
 )
 
 func TestMsgAppV2(t *testing.T) {

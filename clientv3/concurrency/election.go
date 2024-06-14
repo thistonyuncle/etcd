@@ -18,9 +18,9 @@ import (
 	"errors"
 	"fmt"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/mvcc/mvccpb"
+	v3 "github.com/thistonyuncle/etcd/clientv3"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
+	"github.com/thistonyuncle/etcd/mvcc/mvccpb"
 	"golang.org/x/net/context"
 )
 

@@ -1,6 +1,6 @@
 # etcd
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/coreos/etcd)](https://goreportcard.com/report/github.com/coreos/etcd)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thistonyuncle/etcd)](https://goreportcard.com/report/github.com/thistonyuncle/etcd)
 [![Build Status](https://travis-ci.org/coreos/etcd.svg?branch=master)](https://travis-ci.org/coreos/etcd)
 [![Build Status](https://semaphoreci.com/api/v1/coreos/etcd/branches/master/shields_badge.svg)](https://semaphoreci.com/coreos/etcd)
 [![Docker Repository on Quay.io](https://quay.io/repository/coreos/etcd-git/status "Docker Repository on Quay.io")](https://quay.io/repository/coreos/etcd-git)
@@ -30,7 +30,7 @@ See [etcdctl][etcdctl] for a simple command line client.
 [fleet]: https://github.com/coreos/fleet
 [locksmith]: https://github.com/coreos/locksmith
 [vulcand]: https://github.com/vulcand/vulcand
-[etcdctl]: https://github.com/coreos/etcd/tree/master/etcdctl
+[etcdctl]: https://github.com/thistonyuncle/etcd/tree/master/etcdctl
 [etcd-tests]: http://dash.etcd.io
 
 ## Getting started
@@ -42,7 +42,7 @@ The easiest way to get etcd is to use one of the pre-built release binaries whic
 For those wanting to try the very latest version, [build the latest version of etcd][dl-build] from the `master` branch. This first needs [*Go*](https://golang.org/) installed (version 1.8+ is required). All development occurs on `master`, including new features and bug fixes. Bug fixes are first targeted at `master` and subsequently ported to release branches, as described in the [branch management][branch-management] guide.
 
 [rkt]: https://github.com/rkt/rkt/releases/
-[github-release]: https://github.com/coreos/etcd/releases/
+[github-release]: https://github.com/thistonyuncle/etcd/releases/
 [branch-management]: ./Documentation/branch_management.md
 [dl-build]: ./Documentation/dl_build.md#build-the-latest-version
 
@@ -93,7 +93,7 @@ Every cluster member and proxy accepts key value reads and key value writes.
 
 ### Running etcd on Kubernetes
 
-To run an etcd cluster on Kubernetes, try [etcd operator](https://github.com/coreos/etcd-operator).
+To run an etcd cluster on Kubernetes, try [etcd operator](https://github.com/thistonyuncle/etcd-operator).
 
 ### Next steps
 
@@ -119,8 +119,8 @@ Now it's time to dig into the full etcd API and other guides.
 
 - Mailing list: [etcd-dev](https://groups.google.com/forum/?hl=en#!forum/etcd-dev)
 - IRC: #[etcd](irc://irc.freenode.org:6667/#etcd) on freenode.org
-- Planning/Roadmap: [milestones](https://github.com/coreos/etcd/milestones), [roadmap](./ROADMAP.md)
-- Bugs: [issues](https://github.com/coreos/etcd/issues)
+- Planning/Roadmap: [milestones](https://github.com/thistonyuncle/etcd/milestones), [roadmap](./ROADMAP.md)
+- Bugs: [issues](https://github.com/thistonyuncle/etcd/issues)
 
 ## Contributing
 

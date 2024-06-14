@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/pkg/expect"
+	"github.com/thistonyuncle/etcd/pkg/expect"
 )
 
 func TestCtlV3Elect(t *testing.T) {

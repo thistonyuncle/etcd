@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	etcdErr "github.com/coreos/etcd/error"
-	"github.com/coreos/etcd/pkg/testutil"
 	"github.com/jonboulle/clockwork"
+	etcdErr "github.com/thistonyuncle/etcd/error"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
 )
 
 func TestNewStoreWithNamespaces(t *testing.T) {

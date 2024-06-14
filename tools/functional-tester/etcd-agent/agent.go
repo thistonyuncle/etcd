@@ -21,9 +21,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/netutil"
-	"github.com/coreos/etcd/tools/functional-tester/etcd-agent/client"
+	"github.com/thistonyuncle/etcd/pkg/fileutil"
+	"github.com/thistonyuncle/etcd/pkg/netutil"
+	"github.com/thistonyuncle/etcd/tools/functional-tester/etcd-agent/client"
 )
 
 const (

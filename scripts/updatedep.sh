@@ -24,7 +24,7 @@ mv cmd/vendor vendor
 
 # TODO: glide doesn't play well with symlink
 echo "manually deleting etcd-repo symlink in vendor"
-rm -f vendor/github.com/coreos/etcd
+rm -f vendor/github.com/thistonyuncle/etcd
 
 GLIDE_ROOT="$GOPATH/src/github.com/Masterminds/glide"
 GLIDE_SHA=21ff6d397ccca910873d8eaabab6a941c364cc70
@@ -63,7 +63,7 @@ glide vc --only-code --no-tests
 mv vendor cmd/
 
 echo "recreating symlink to etcd"
-ln -s ../../../../ cmd/vendor/github.com/coreos/etcd
+ln -s ../../../../ cmd/vendor/github.com/thistonyuncle/etcd
 
 echo "done"
 

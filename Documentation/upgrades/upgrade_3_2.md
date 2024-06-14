@@ -10,7 +10,7 @@ Before [starting an upgrade](#upgrade-procedure), read through the rest of this 
 
 3.2 introduces two breaking changes.
 
-Previously, `clientv3.Lease.TimeToLive` API returned `lease.ErrLeaseNotFound` on non-existent lease ID. 3.2 instead returns TTL=-1 in its response and no error (see [#7305](https://github.com/coreos/etcd/pull/7305)).
+Previously, `clientv3.Lease.TimeToLive` API returned `lease.ErrLeaseNotFound` on non-existent lease ID. 3.2 instead returns TTL=-1 in its response and no error (see [#7305](https://github.com/thistonyuncle/etcd/pull/7305)).
 
 Before
 
@@ -35,14 +35,14 @@ err == nil
 Before
 
 ```go
-import "github.com/coreos/etcd/clientv3"
+import "github.com/thistonyuncle/etcd/clientv3"
 clientv3.NewFromConfigFile
 ```
 
 After
 
 ```go
-import clientv3yaml "github.com/coreos/etcd/clientv3/yaml"
+import clientv3yaml "github.com/thistonyuncle/etcd/clientv3/yaml"
 clientv3yaml.NewConfig
 ```
 

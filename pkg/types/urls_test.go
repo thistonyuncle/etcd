@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
 )
 
 func TestNewURLs(t *testing.T) {

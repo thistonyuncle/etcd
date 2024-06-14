@@ -15,7 +15,7 @@
 // etcd-runner is a command line application that performs tests on etcd.
 package main
 
-import "github.com/coreos/etcd/tools/functional-tester/etcd-runner/command"
+import "github.com/thistonyuncle/etcd/tools/functional-tester/etcd-runner/command"
 
 func main() {
 	command.Start()

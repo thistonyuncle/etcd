@@ -137,14 +137,14 @@ etcd sends a snapshot of its complete key-value store to refresh slow followers 
 [supported-platform]: ./op-guide/supported-platform.md
 [wal_fsync_duration_seconds]: ./metrics.md#disk
 [tuning]: ./tuning.md
-[new_issue]: https://github.com/coreos/etcd/issues/new
+[new_issue]: https://github.com/thistonyuncle/etcd/issues/new
 [backend_commit_metrics]: ./metrics.md#disk
 [raft]: https://raft.github.io/raft.pdf
-[backup]: https://github.com/coreos/etcd/blob/master/Documentation/op-guide/recovery.md#snapshotting-the-keyspace
+[backup]: https://github.com/thistonyuncle/etcd/blob/master/Documentation/op-guide/recovery.md#snapshotting-the-keyspace
 [chubby]: http://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf
-[runtime reconfiguration]: https://github.com/coreos/etcd/blob/master/Documentation/op-guide/runtime-configuration.md
-[benchmark]: https://github.com/coreos/etcd/tree/master/tools/benchmark
-[benchmark-result]: https://github.com/coreos/etcd/blob/master/Documentation/op-guide/performance.md
+[runtime reconfiguration]: https://github.com/thistonyuncle/etcd/blob/master/Documentation/op-guide/runtime-configuration.md
+[benchmark]: https://github.com/thistonyuncle/etcd/tree/master/tools/benchmark
+[benchmark-result]: https://github.com/thistonyuncle/etcd/blob/master/Documentation/op-guide/performance.md
 [api-mvcc]: learning/api.md#revisions
 [maintenance-compact]:  op-guide/maintenance.md#history-compaction
 [maintenance-defragment]: op-guide/maintenance.md#defragmentation

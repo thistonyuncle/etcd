@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strconv"
 
-	v3 "github.com/coreos/etcd/clientv3"
 	"github.com/spf13/cobra"
+	v3 "github.com/thistonyuncle/etcd/clientv3"
 	"golang.org/x/net/context"
 )
 

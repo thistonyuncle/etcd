@@ -17,7 +17,7 @@ package membership
 import (
 	"errors"
 
-	etcdErr "github.com/coreos/etcd/error"
+	etcdErr "github.com/thistonyuncle/etcd/error"
 )
 
 var (

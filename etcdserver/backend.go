@@ -19,11 +19,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/mvcc"
-	"github.com/coreos/etcd/mvcc/backend"
-	"github.com/coreos/etcd/raft/raftpb"
-	"github.com/coreos/etcd/snap"
+	"github.com/thistonyuncle/etcd/lease"
+	"github.com/thistonyuncle/etcd/mvcc"
+	"github.com/thistonyuncle/etcd/mvcc/backend"
+	"github.com/thistonyuncle/etcd/raft/raftpb"
+	"github.com/thistonyuncle/etcd/snap"
 )
 
 func newBackend(cfg *ServerConfig) backend.Backend {

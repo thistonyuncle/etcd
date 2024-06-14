@@ -21,7 +21,7 @@ import (
 	"net/rpc"
 	"syscall"
 
-	"github.com/coreos/etcd/tools/functional-tester/etcd-agent/client"
+	"github.com/thistonyuncle/etcd/tools/functional-tester/etcd-agent/client"
 )
 
 func (a *Agent) serveRPC(port string) {

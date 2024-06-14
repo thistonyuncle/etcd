@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/coreos/etcd/integration"
-	mvccpb "github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/thistonyuncle/etcd/clientv3"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3rpc"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/thistonyuncle/etcd/integration"
+	mvccpb "github.com/thistonyuncle/etcd/mvcc/mvccpb"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

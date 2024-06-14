@@ -17,8 +17,8 @@ package v3rpc
 import (
 	"crypto/tls"
 
-	"github.com/coreos/etcd/etcdserver"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"github.com/thistonyuncle/etcd/etcdserver"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/grpclog"

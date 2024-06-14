@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/mirror"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/coreos/etcd/mvcc/mvccpb"
 	"github.com/spf13/cobra"
+	"github.com/thistonyuncle/etcd/clientv3"
+	"github.com/thistonyuncle/etcd/clientv3/mirror"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/thistonyuncle/etcd/mvcc/mvccpb"
 	"golang.org/x/net/context"
 )
 

@@ -15,12 +15,12 @@
 package v3rpc
 
 import (
-	"github.com/coreos/etcd/auth"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/coreos/etcd/etcdserver/membership"
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/mvcc"
+	"github.com/thistonyuncle/etcd/auth"
+	"github.com/thistonyuncle/etcd/etcdserver"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/thistonyuncle/etcd/etcdserver/membership"
+	"github.com/thistonyuncle/etcd/lease"
+	"github.com/thistonyuncle/etcd/mvcc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 )

@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/thistonyuncle/etcd/integration"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
+	"github.com/thistonyuncle/etcd/pkg/types"
 	"golang.org/x/net/context"
 )
 

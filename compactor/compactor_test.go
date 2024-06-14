@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/testutil"
 	"github.com/jonboulle/clockwork"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
 	"golang.org/x/net/context"
 )
 

@@ -19,13 +19,13 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/coreos/etcd/auth"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/etcdserver/membership"
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/lease/leasehttp"
-	"github.com/coreos/etcd/mvcc"
-	"github.com/coreos/etcd/raft"
+	"github.com/thistonyuncle/etcd/auth"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
+	"github.com/thistonyuncle/etcd/etcdserver/membership"
+	"github.com/thistonyuncle/etcd/lease"
+	"github.com/thistonyuncle/etcd/lease/leasehttp"
+	"github.com/thistonyuncle/etcd/mvcc"
+	"github.com/thistonyuncle/etcd/raft"
 
 	"golang.org/x/net/context"
 )

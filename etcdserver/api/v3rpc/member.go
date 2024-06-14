@@ -17,12 +17,12 @@ package v3rpc
 import (
 	"time"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/etcdserver/membership"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/thistonyuncle/etcd/etcdserver"
+	"github.com/thistonyuncle/etcd/etcdserver/api"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
+	"github.com/thistonyuncle/etcd/etcdserver/membership"
+	"github.com/thistonyuncle/etcd/pkg/types"
 	"golang.org/x/net/context"
 )
 

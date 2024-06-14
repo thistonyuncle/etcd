@@ -30,9 +30,9 @@ import (
 
 	math "math"
 
-	etcdserverpb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	etcdserverpb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
 
-	mvccpb "github.com/coreos/etcd/mvcc/mvccpb"
+	mvccpb "github.com/thistonyuncle/etcd/mvcc/mvccpb"
 
 	context "golang.org/x/net/context"
 

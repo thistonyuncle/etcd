@@ -25,10 +25,10 @@ import (
 	"time"
 
 	"github.com/bgentry/speakeasy"
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/pkg/flags"
-	"github.com/coreos/etcd/pkg/transport"
 	"github.com/spf13/cobra"
+	"github.com/thistonyuncle/etcd/clientv3"
+	"github.com/thistonyuncle/etcd/pkg/flags"
+	"github.com/thistonyuncle/etcd/pkg/transport"
 )
 
 // GlobalFlags are flags that defined globally

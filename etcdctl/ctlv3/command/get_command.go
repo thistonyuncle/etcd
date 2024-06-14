@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coreos/etcd/clientv3"
 	"github.com/spf13/cobra"
+	"github.com/thistonyuncle/etcd/clientv3"
 )
 
 var (

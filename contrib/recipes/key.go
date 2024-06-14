@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/concurrency"
+	v3 "github.com/thistonyuncle/etcd/clientv3"
+	"github.com/thistonyuncle/etcd/clientv3/concurrency"
 	"golang.org/x/net/context"
 )
 

@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/pkg/testutil"
 	"github.com/coreos/pkg/capnslog"
+	"github.com/thistonyuncle/etcd/client"
+	"github.com/thistonyuncle/etcd/etcdserver"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
 
 	"golang.org/x/net/context"
 )
@@ -444,7 +444,7 @@ func TestRejectUnhealthyRemove(t *testing.T) {
 
 // TestRestartRemoved ensures that restarting removed member must exit
 // if 'initial-cluster-state' is set 'new' and old data directory still exists
-// (see https://github.com/coreos/etcd/issues/7512 for more).
+// (see https://github.com/thistonyuncle/etcd/issues/7512 for more).
 func TestRestartRemoved(t *testing.T) {
 	defer testutil.AfterTest(t)
 

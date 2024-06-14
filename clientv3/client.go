@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3rpc/rpctypes"
 
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

@@ -22,11 +22,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/mvcc/backend"
-	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/coreos/etcd/pkg/schedule"
 	"github.com/coreos/pkg/capnslog"
+	"github.com/thistonyuncle/etcd/lease"
+	"github.com/thistonyuncle/etcd/mvcc/backend"
+	"github.com/thistonyuncle/etcd/mvcc/mvccpb"
+	"github.com/thistonyuncle/etcd/pkg/schedule"
 	"golang.org/x/net/context"
 )
 
@@ -43,7 +43,7 @@ var (
 	ErrCanceled  = errors.New("mvcc: watcher is canceled")
 	ErrClosed    = errors.New("mvcc: closed")
 
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "mvcc")
+	plog = capnslog.NewPackageLogger("github.com/thistonyuncle/etcd", "mvcc")
 )
 
 const (

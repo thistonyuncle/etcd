@@ -20,8 +20,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coreos/etcd/clientv3"
 	"github.com/spf13/cobra"
+	"github.com/thistonyuncle/etcd/clientv3"
 	"golang.org/x/net/context"
 )
 

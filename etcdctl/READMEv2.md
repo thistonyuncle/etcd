@@ -329,8 +329,8 @@ Releases will follow lockstep with the etcd release cycle.
 etcdctl is under the Apache 2.0 license. See the [LICENSE][license] file for details.
 
 [authentication]: ../Documentation/v2/authentication.md
-[etcd]: https://github.com/coreos/etcd
-[github-release]: https://github.com/coreos/etcd/releases/
+[etcd]: https://github.com/thistonyuncle/etcd
+[github-release]: https://github.com/thistonyuncle/etcd/releases/
 [license]: ../LICENSE
 [semver]: http://semver.org/
 [username-flag]: #--username--u

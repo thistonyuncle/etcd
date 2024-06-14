@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/thistonyuncle/etcd/raft/raftpb"
 )
 
 type cluster struct {

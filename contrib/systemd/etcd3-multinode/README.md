@@ -20,7 +20,7 @@ In each machine, write etcd systemd service files:
 cat > /tmp/my-etcd-1.service <<EOF
 [Unit]
 Description=etcd
-Documentation=https://github.com/coreos/etcd
+Documentation=https://github.com/thistonyuncle/etcd
 Conflicts=etcd.service
 Conflicts=etcd2.service
 
@@ -51,7 +51,7 @@ sudo mv /tmp/my-etcd-1.service /etc/systemd/system/my-etcd-1.service
 cat > /tmp/my-etcd-2.service <<EOF
 [Unit]
 Description=etcd
-Documentation=https://github.com/coreos/etcd
+Documentation=https://github.com/thistonyuncle/etcd
 Conflicts=etcd.service
 Conflicts=etcd2.service
 
@@ -82,7 +82,7 @@ sudo mv /tmp/my-etcd-2.service /etc/systemd/system/my-etcd-2.service
 cat > /tmp/my-etcd-3.service <<EOF
 [Unit]
 Description=etcd
-Documentation=https://github.com/coreos/etcd
+Documentation=https://github.com/thistonyuncle/etcd
 Conflicts=etcd.service
 Conflicts=etcd2.service
 

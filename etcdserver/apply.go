@@ -19,12 +19,12 @@ import (
 	"sort"
 	"time"
 
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/lease"
-	"github.com/coreos/etcd/mvcc"
-	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/coreos/etcd/pkg/types"
 	"github.com/gogo/protobuf/proto"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
+	"github.com/thistonyuncle/etcd/lease"
+	"github.com/thistonyuncle/etcd/mvcc"
+	"github.com/thistonyuncle/etcd/mvcc/mvccpb"
+	"github.com/thistonyuncle/etcd/pkg/types"
 	"golang.org/x/net/context"
 )
 

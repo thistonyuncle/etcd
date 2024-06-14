@@ -17,7 +17,7 @@
 
 package ctlv3
 
-import "github.com/coreos/etcd/etcdctl/ctlv3/command"
+import "github.com/thistonyuncle/etcd/etcdctl/ctlv3/command"
 
 func Start() {
 	rootCmd.SetUsageFunc(usageFunc)

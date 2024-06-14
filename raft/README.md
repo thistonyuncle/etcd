@@ -13,7 +13,7 @@ To keep the codebase small as well as provide flexibility, the library only impl
 
 In order to easily test the Raft library, its behavior should be deterministic. To achieve this determinism, the library models Raft as a state machine.  The state machine takes a `Message` as input. A message can either be a local timer update or a network message sent from a remote peer. The state machine's output is a 3-tuple `{[]Messages, []LogEntries, NextState}` consisting of an array of `Messages`, `log entries`, and `Raft state changes`. For state machines with the same state, the same state machine input should always generate the same state machine output.
 
-A simple example application, _raftexample_, is also available to help illustrate how to use this package in practice: https://github.com/coreos/etcd/tree/master/contrib/raftexample
+A simple example application, _raftexample_, is also available to help illustrate how to use this package in practice: https://github.com/thistonyuncle/etcd/tree/master/contrib/raftexample
 
 # Features
 
@@ -46,7 +46,7 @@ This raft implementation also includes a few optional enhancements:
 
 - [cockroachdb](https://github.com/cockroachdb/cockroach) A Scalable, Survivable, Strongly-Consistent SQL Database
 - [dgraph](https://github.com/dgraph-io/dgraph) A Scalable, Distributed, Low Latency, High Throughput Graph Database
-- [etcd](https://github.com/coreos/etcd) A distributed reliable key-value store
+- [etcd](https://github.com/thistonyuncle/etcd) A distributed reliable key-value store
 - [tikv](https://github.com/pingcap/tikv) A Distributed transactional key value database powered by Rust and Raft
 - [swarmkit](https://github.com/docker/swarmkit) A toolkit for orchestrating distributed systems at any scale.
 - [chain core](https://github.com/chain/chain) Software for operating permissioned, multi-asset blockchain networks

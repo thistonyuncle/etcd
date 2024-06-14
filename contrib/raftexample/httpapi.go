@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/thistonyuncle/etcd/raft/raftpb"
 )
 
 // Handler for a http based key-value store backed by raft

@@ -18,15 +18,15 @@ package v3rpc
 import (
 	"sort"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
 	"github.com/coreos/pkg/capnslog"
+	"github.com/thistonyuncle/etcd/etcdserver"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
 	"golang.org/x/net/context"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdserver/api/v3rpc")
+	plog = capnslog.NewPackageLogger("github.com/thistonyuncle/etcd", "etcdserver/api/v3rpc")
 )
 
 type kvServer struct {

@@ -22,7 +22,7 @@ import (
 	"golang.org/x/time/rate"
 	"google.golang.org/grpc"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/thistonyuncle/etcd/clientv3"
 )
 
 const (

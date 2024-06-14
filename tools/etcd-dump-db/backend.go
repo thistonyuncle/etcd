@@ -19,8 +19,8 @@ import (
 	"path/filepath"
 
 	"github.com/boltdb/bolt"
-	"github.com/coreos/etcd/mvcc"
-	"github.com/coreos/etcd/mvcc/backend"
+	"github.com/thistonyuncle/etcd/mvcc"
+	"github.com/thistonyuncle/etcd/mvcc/backend"
 )
 
 func snapDir(dataDir string) string {

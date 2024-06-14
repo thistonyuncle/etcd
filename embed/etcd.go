@@ -26,18 +26,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v2http"
-	"github.com/coreos/etcd/pkg/cors"
-	"github.com/coreos/etcd/pkg/debugutil"
-	runtimeutil "github.com/coreos/etcd/pkg/runtime"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/rafthttp"
 	"github.com/coreos/pkg/capnslog"
+	"github.com/thistonyuncle/etcd/etcdserver"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v2http"
+	"github.com/thistonyuncle/etcd/pkg/cors"
+	"github.com/thistonyuncle/etcd/pkg/debugutil"
+	runtimeutil "github.com/thistonyuncle/etcd/pkg/runtime"
+	"github.com/thistonyuncle/etcd/pkg/transport"
+	"github.com/thistonyuncle/etcd/pkg/types"
+	"github.com/thistonyuncle/etcd/rafthttp"
 )
 
-var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "embed")
+var plog = capnslog.NewPackageLogger("github.com/thistonyuncle/etcd", "embed")
 
 const (
 	// internal fd usage includes disk usage and transport usage.

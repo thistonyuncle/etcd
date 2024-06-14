@@ -17,9 +17,9 @@ package api
 import (
 	"sync"
 
-	"github.com/coreos/etcd/version"
 	"github.com/coreos/go-semver/semver"
 	"github.com/coreos/pkg/capnslog"
+	"github.com/thistonyuncle/etcd/version"
 )
 
 type Capability string
@@ -30,7 +30,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcdserver/api")
+	plog = capnslog.NewPackageLogger("github.com/thistonyuncle/etcd", "etcdserver/api")
 
 	// capabilityMaps is a static map of version to capability map.
 	capabilityMaps = map[string]map[Capability]bool{

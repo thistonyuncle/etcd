@@ -472,8 +472,8 @@ To setup an etcd cluster with proxies of v2 API, please read the the [clustering
 [rfc-srv]: http://www.ietf.org/rfc/rfc2052.txt
 [runtime-conf]: runtime-configuration.md
 [runtime-reconf-design]: runtime-reconf-design.md
-[proxy]: https://github.com/coreos/etcd/blob/release-2.3/Documentation/proxy.md
-[clustering_etcd2]: https://github.com/coreos/etcd/blob/release-2.3/Documentation/clustering.md
+[proxy]: https://github.com/thistonyuncle/etcd/blob/release-2.3/Documentation/proxy.md
+[clustering_etcd2]: https://github.com/thistonyuncle/etcd/blob/release-2.3/Documentation/clustering.md
 [security-guide]: security.md
 [tls-setup]: ../../hack/tls-setup
 [gateway]: gateway.md

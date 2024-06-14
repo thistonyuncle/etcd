@@ -20,7 +20,7 @@ import (
 	"testing"
 )
 
-func TestMain(t *testing.T) {
+func TestMn(t *testing.T) {
 	// don't launch etcdctl when invoked via go test
 	if strings.HasSuffix(os.Args[0], "etcdctl.test") {
 		return

@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/pkg/report"
+	v3 "github.com/thistonyuncle/etcd/clientv3"
+	"github.com/thistonyuncle/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"

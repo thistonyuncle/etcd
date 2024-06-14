@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/pkg/fileutil"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/thistonyuncle/etcd/pkg/fileutil"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
 )
 
 func TestCtlV2Set(t *testing.T)          { testCtlV2Set(t, &configNoTLS, false) }
@@ -229,7 +229,7 @@ func TestCtlV2RoleList(t *testing.T) {
 	}
 }
 
-func TestCtlV2Backup(t *testing.T) { // For https://github.com/coreos/etcd/issues/5360
+func TestCtlV2Backup(t *testing.T) { // For https://github.com/thistonyuncle/etcd/issues/5360
 	defer testutil.AfterTest(t)
 
 	backupDir, err := ioutil.TempDir("", "testbackup0.etcd")

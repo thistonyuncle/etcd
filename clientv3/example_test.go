@@ -18,9 +18,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/pkg/transport"
 	"github.com/coreos/pkg/capnslog"
+	"github.com/thistonyuncle/etcd/clientv3"
+	"github.com/thistonyuncle/etcd/pkg/transport"
 	"golang.org/x/net/context"
 )
 
@@ -31,7 +31,7 @@ var (
 )
 
 func Example() {
-	var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "clientv3")
+	var plog = capnslog.NewPackageLogger("github.com/thistonyuncle/etcd", "clientv3")
 	clientv3.SetLogger(plog)
 
 	cli, err := clientv3.New(clientv3.Config{

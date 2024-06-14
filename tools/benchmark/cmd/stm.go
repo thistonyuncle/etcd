@@ -22,10 +22,10 @@ import (
 	"os"
 	"time"
 
-	v3 "github.com/coreos/etcd/clientv3"
-	v3sync "github.com/coreos/etcd/clientv3/concurrency"
-	"github.com/coreos/etcd/etcdserver/api/v3lock/v3lockpb"
-	"github.com/coreos/etcd/pkg/report"
+	v3 "github.com/thistonyuncle/etcd/clientv3"
+	v3sync "github.com/thistonyuncle/etcd/clientv3/concurrency"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/thistonyuncle/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/net/context"

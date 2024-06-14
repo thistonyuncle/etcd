@@ -67,6 +67,6 @@ Bootstrap another machine and use the [boom HTTP benchmark tool][boom] to send r
 - write QPS to all servers is increased by 30~80% because follower could receive latest commit index earlier and commit proposals faster.
 
 [boom]: https://github.com/rakyll/boom
-[c7146bd5]: https://github.com/coreos/etcd/commits/c7146bd5f2c73716091262edc638401bb8229144
+[c7146bd5]: https://github.com/thistonyuncle/etcd/commits/c7146bd5f2c73716091262edc638401bb8229144
 [etcd-2.1-benchmark]: etcd-2-1-0-alpha-benchmarks.md
 [hack-benchmark]: ../../../hack/benchmark/

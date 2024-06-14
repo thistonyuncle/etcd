@@ -17,9 +17,9 @@ package integration
 import (
 	"testing"
 
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/thistonyuncle/etcd/integration"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
 	"golang.org/x/net/context"
 )
 

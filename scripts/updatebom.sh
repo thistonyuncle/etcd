@@ -18,7 +18,7 @@ mv ./cmd/vendor ./gopath/src
 echo "generating bill-of-materials.json"
 GOPATH=`pwd`/gopath license-bill-of-materials \
     --override-file ./bill-of-materials.override.json \
-    github.com/coreos/etcd github.com/coreos/etcd/etcdctl > bill-of-materials.json
+    github.com/thistonyuncle/etcd github.com/thistonyuncle/etcd/etcdctl > bill-of-materials.json
 
 echo "reverting GOPATH,vendor"
 mv ./gopath/src ./cmd/vendor

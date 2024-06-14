@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	etcd "github.com/coreos/etcd/clientv3"
+	etcd "github.com/thistonyuncle/etcd/clientv3"
 	"golang.org/x/net/context"
 
 	"google.golang.org/grpc"

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/pkg/expect"
+	"github.com/thistonyuncle/etcd/pkg/expect"
 )
 
 // debugLockSignal forces SIGQUIT to debug etcdctl elect and lock failures

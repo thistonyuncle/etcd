@@ -34,23 +34,23 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/embed"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/etcdserver/api/v2http"
-	"github.com/coreos/etcd/etcdserver/api/v3client"
-	"github.com/coreos/etcd/etcdserver/api/v3election"
-	epb "github.com/coreos/etcd/etcdserver/api/v3election/v3electionpb"
-	"github.com/coreos/etcd/etcdserver/api/v3lock"
-	lockpb "github.com/coreos/etcd/etcdserver/api/v3lock/v3lockpb"
-	"github.com/coreos/etcd/etcdserver/api/v3rpc"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/testutil"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/rafthttp"
 	"github.com/coreos/pkg/capnslog"
+	"github.com/thistonyuncle/etcd/client"
+	"github.com/thistonyuncle/etcd/clientv3"
+	"github.com/thistonyuncle/etcd/embed"
+	"github.com/thistonyuncle/etcd/etcdserver"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v2http"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3client"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3election"
+	epb "github.com/thistonyuncle/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3lock"
+	lockpb "github.com/thistonyuncle/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3rpc"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
+	"github.com/thistonyuncle/etcd/pkg/transport"
+	"github.com/thistonyuncle/etcd/pkg/types"
+	"github.com/thistonyuncle/etcd/rafthttp"
 )
 
 const (
@@ -84,7 +84,7 @@ var (
 		ClientCertAuth: true,
 	}
 
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "integration")
+	plog = capnslog.NewPackageLogger("github.com/thistonyuncle/etcd", "integration")
 )
 
 type ClusterConfig struct {

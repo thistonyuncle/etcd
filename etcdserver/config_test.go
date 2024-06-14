@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/thistonyuncle/etcd/pkg/types"
 )
 
 func mustNewURLs(t *testing.T, urls []string) []url.URL {

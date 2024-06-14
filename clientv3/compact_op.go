@@ -15,7 +15,7 @@
 package clientv3
 
 import (
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
 )
 
 // CompactOp represents a compact operation.

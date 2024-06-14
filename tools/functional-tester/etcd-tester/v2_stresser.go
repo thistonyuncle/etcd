@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	clientV2 "github.com/coreos/etcd/client"
+	clientV2 "github.com/thistonyuncle/etcd/client"
 )
 
 type v2Stresser struct {

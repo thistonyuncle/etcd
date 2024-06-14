@@ -15,7 +15,7 @@
 package etcdserver
 
 import (
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
 )
 
 const (

@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/bgentry/speakeasy"
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/thistonyuncle/etcd/client"
+	"github.com/thistonyuncle/etcd/pkg/transport"
 	"github.com/urfave/cli"
 	"golang.org/x/net/context"
 )

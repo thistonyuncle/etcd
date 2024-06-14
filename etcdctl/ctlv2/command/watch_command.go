@@ -20,7 +20,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/coreos/etcd/client"
+	"github.com/thistonyuncle/etcd/client"
 	"github.com/urfave/cli"
 	"golang.org/x/net/context"
 )

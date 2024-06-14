@@ -10,7 +10,7 @@ It translates gRPC into RESTful JSON APIs.
 package gw
 
 import (
-	"github.com/coreos/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/thistonyuncle/etcd/etcdserver/api/v3lock/v3lockpb"
 	"io"
 	"net/http"
 

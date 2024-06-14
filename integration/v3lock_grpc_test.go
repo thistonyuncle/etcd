@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	lockpb "github.com/coreos/etcd/etcdserver/api/v3lock/v3lockpb"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/testutil"
+	lockpb "github.com/thistonyuncle/etcd/etcdserver/api/v3lock/v3lockpb"
+	pb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
 	"golang.org/x/net/context"
 )
 

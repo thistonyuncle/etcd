@@ -17,7 +17,7 @@ package concurrency
 import (
 	"math"
 
-	v3 "github.com/coreos/etcd/clientv3"
+	v3 "github.com/thistonyuncle/etcd/clientv3"
 	"golang.org/x/net/context"
 )
 

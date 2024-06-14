@@ -22,9 +22,9 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/naming"
 
-	etcd "github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/integration"
-	"github.com/coreos/etcd/pkg/testutil"
+	etcd "github.com/thistonyuncle/etcd/clientv3"
+	"github.com/thistonyuncle/etcd/integration"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
 )
 
 func TestGRPCResolver(t *testing.T) {

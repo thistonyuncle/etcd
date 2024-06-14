@@ -24,7 +24,7 @@ import (
 
 	math "math"
 
-	etcdserverpb "github.com/coreos/etcd/etcdserver/etcdserverpb"
+	etcdserverpb "github.com/thistonyuncle/etcd/etcdserver/etcdserverpb"
 
 	io "io"
 )

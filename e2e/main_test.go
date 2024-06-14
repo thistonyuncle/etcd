@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/thistonyuncle/etcd/pkg/testutil"
 )
 
 var binDir string

@@ -90,7 +90,7 @@ for pb in etcdserverpb/rpc api/v3lock/v3lockpb/v3lock api/v3election/v3electionp
 	sed -i.bak -E "s/[^(]*Client, runtime/${pkg}.&/" ${gwfile}
 	sed -i.bak -E "s/New[A-Za-z]*Client/${pkg}.&/" ${gwfile}
 	# darwin doesn't like newlines in sed...
-	sed -i.bak -E "s|import \(|& \"github.com/coreos/etcd/${pkgpath}\"|" ${gwfile}
+	sed -i.bak -E "s|import \(|& \"github.com/thistonyuncle/etcd/${pkgpath}\"|" ${gwfile}
 	mkdir -p  ${pkgpath}/gw/
 	go fmt ${gwfile}
 	mv ${gwfile} ${pkgpath}/gw/

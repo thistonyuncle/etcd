@@ -32,7 +32,7 @@ COVER=${COVER:-"-cover"}
 IGNORE_PKGS="(cmd/|etcdserverpb|rafttest|gopath.proto|v3lockpb|v3electionpb)"
 INTEGRATION_PKGS="(integration|e2e|contrib|functional-tester)"
 
-# all github.com/coreos/etcd/whatever pkgs that are not auto-generated / tools
+# all github.com/thistonyuncle/etcd/whatever pkgs that are not auto-generated / tools
 PKGS=`find . -name \*.go | while read a; do dirname $a; done | sort | uniq | egrep -v "$IGNORE_PKGS" | egrep -v "(tools/|contrib/|e2e|pb)" | sed "s|\.|${REPO_PATH}|g" | xargs echo`
 # pkg1,pkg2,pkg3
 PKGS_COMMA=${PKGS// /,}
@@ -190,7 +190,7 @@ function release_pass {
 	echo "Downloading $file"
 
 	set +e
-	curl --fail -L https://github.com/coreos/etcd/releases/download/$UPGRADE_VER/$file -o /tmp/$file
+	curl --fail -L https://github.com/thistonyuncle/etcd/releases/download/$UPGRADE_VER/$file -o /tmp/$file
 	local result=$?
 	set -e
 	case $result in
@@ -374,7 +374,7 @@ function bom_pass {
 	echo "Checking bill of materials..."
 	license-bill-of-materials \
 		--override-file bill-of-materials.override.json \
-		github.com/coreos/etcd github.com/coreos/etcd/etcdctl >bom-now.json || true
+		github.com/thistonyuncle/etcd github.com/thistonyuncle/etcd/etcdctl >bom-now.json || true
 	if ! diff bill-of-materials.json bom-now.json; then
 		echo "vendored licenses do not match given bill of materials"
 		exit 255

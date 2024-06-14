@@ -23,7 +23,7 @@ import (
 	"github.com/coreos/pkg/capnslog"
 )
 
-var plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "etcd-agent")
+var plog = capnslog.NewPackageLogger("github.com/thistonyuncle/etcd", "etcd-agent")
 
 func main() {
 	etcdPath := flag.String("etcd-path", filepath.Join(os.Getenv("GOPATH"), "bin/etcd"), "the path to etcd binary")

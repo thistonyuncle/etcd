@@ -17,7 +17,7 @@ package wal
 import (
 	"os"
 
-	"github.com/coreos/etcd/wal/walpb"
+	"github.com/thistonyuncle/etcd/wal/walpb"
 )
 
 func (w *WAL) renameWal(tmpdirpath string) (*WAL, error) {

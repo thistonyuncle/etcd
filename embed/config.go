@@ -22,12 +22,12 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/pkg/cors"
-	"github.com/coreos/etcd/pkg/netutil"
-	"github.com/coreos/etcd/pkg/srv"
-	"github.com/coreos/etcd/pkg/transport"
-	"github.com/coreos/etcd/pkg/types"
+	"github.com/thistonyuncle/etcd/etcdserver"
+	"github.com/thistonyuncle/etcd/pkg/cors"
+	"github.com/thistonyuncle/etcd/pkg/netutil"
+	"github.com/thistonyuncle/etcd/pkg/srv"
+	"github.com/thistonyuncle/etcd/pkg/transport"
+	"github.com/thistonyuncle/etcd/pkg/types"
 
 	"github.com/ghodss/yaml"
 	"google.golang.org/grpc"

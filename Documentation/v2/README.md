@@ -1,6 +1,6 @@
 # etcd2
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/coreos/etcd)](https://goreportcard.com/report/github.com/coreos/etcd)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thistonyuncle/etcd)](https://goreportcard.com/report/github.com/thistonyuncle/etcd)
 [![Build Status](https://travis-ci.org/coreos/etcd.svg?branch=master)](https://travis-ci.org/coreos/etcd)
 [![Build Status](https://semaphoreci.com/api/v1/coreos/etcd/branches/master/shields_badge.svg)](https://semaphoreci.com/coreos/etcd)
 [![Docker Repository on Quay.io](https://quay.io/repository/coreos/etcd-git/status "Docker Repository on Quay.io")](https://quay.io/repository/coreos/etcd-git)
@@ -28,7 +28,7 @@ Or feel free to just use `curl`, as in the examples below.
 [fleet]: https://github.com/coreos/fleet
 [locksmith]: https://github.com/coreos/locksmith
 [vulcand]: https://github.com/vulcand/vulcand
-[etcdctl]: https://github.com/coreos/etcd/tree/master/etcdctl
+[etcdctl]: https://github.com/thistonyuncle/etcd/tree/master/etcdctl
 
 ## Getting Started
 
@@ -41,7 +41,7 @@ You will first need [*Go*](https://golang.org/) installed on your machine (versi
 All development occurs on `master`, including new features and bug fixes.
 Bug fixes are first targeted at `master` and subsequently ported to release branches, as described in the [branch management][branch-management] guide.
 
-[github-release]: https://github.com/coreos/etcd/releases/
+[github-release]: https://github.com/thistonyuncle/etcd/releases/
 [branch-management]: branch_management.md
 
 ### Running etcd
@@ -107,8 +107,8 @@ Now it's time to dig into the full etcd API and other guides.
 
 - Mailing list: [etcd-dev](https://groups.google.com/forum/?hl=en#!forum/etcd-dev)
 - IRC: #[etcd](irc://irc.freenode.org:6667/#etcd) on freenode.org
-- Planning/Roadmap: [milestones](https://github.com/coreos/etcd/milestones), [roadmap](../../ROADMAP.md)
-- Bugs: [issues](https://github.com/coreos/etcd/issues)
+- Planning/Roadmap: [milestones](https://github.com/thistonyuncle/etcd/milestones), [roadmap](../../ROADMAP.md)
+- Bugs: [issues](https://github.com/thistonyuncle/etcd/issues)
 
 ## Contributing
 
@@ -120,7 +120,7 @@ See [reporting bugs](reporting_bugs.md) for details about reporting any issue yo
 
 ## Known bugs
 
-[GH518](https://github.com/coreos/etcd/issues/518) is a known bug. Issue is that:
+[GH518](https://github.com/thistonyuncle/etcd/issues/518) is a known bug. Issue is that:
 
 ```
 curl http://127.0.0.1:2379/v2/keys/foo -XPUT -d value=bar
@@ -158,7 +158,7 @@ the target architecture.
 
 Currently only the amd64 architecture is officially supported by `etcd`.
 
-[358]: https://github.com/coreos/etcd/issues/358
+[358]: https://github.com/thistonyuncle/etcd/issues/358
 
 ### License
 
